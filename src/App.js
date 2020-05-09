@@ -6,8 +6,7 @@ import {
   Link
 } from "react-router-dom";
 import './App.css';
-import Home from './pages/home';
-import Cart from './pages/cart';
+import Home from './pages/Home';
 
 function App() {
   return (
@@ -16,8 +15,8 @@ function App() {
           <Switch>
             {/* <GameContextProvider> */}
             <Route exact path="/" component={Home} />
-            <Route exact path="/cart" component ={Cart} />
-            {/* <Route exact path="/createGame" component ={CreateGame} />
+            {/* <Route exact path="/cart" component ={Cart} />
+            <Route exact path="/createGame" component ={CreateGame} />
             <Route exact path="/cutOffMark" component={CutOffMark} />
             <Route exact path="/choosePlaylist" component={ChoosePlaylist} />
             <Route exact path="/difficultyPage" component={DifficultyPage} />
